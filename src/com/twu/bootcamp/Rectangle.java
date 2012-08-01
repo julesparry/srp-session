@@ -3,18 +3,18 @@ package com.twu.bootcamp;
 public class Rectangle {
 
     private int width;
-    private int height;
+    private int length;
 
-    public Rectangle(int width, int height) {
+    public Rectangle(int width, int length) {
         this.width = width;
-        this.height = height;
+        this.length = length;
     }
 
     public int area() {
-        return width * height;
+        return width * length;
     }
 
     public int perimeter() {
-        return width * 2 + height * 2;
+        return width * 2 + length * 2;
     }
 }
